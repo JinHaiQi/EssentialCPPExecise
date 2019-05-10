@@ -1,6 +1,9 @@
 #include "Stack.h"
 
-Stack::
+void Stack::test() 
+{
+  cout << "Hello World" << endl;
+}
 
 
 

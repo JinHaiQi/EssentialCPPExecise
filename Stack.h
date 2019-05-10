@@ -3,6 +3,9 @@
 
 #include<string>
 #include<vector>
+#include<iostream>
+
+using namespace std;
 
 class Stack {
   public:
@@ -12,10 +15,17 @@ class Stack {
 
     bool empty();
     bool full();
-    int size() {return _stack.size();}
+    int size() { 
+      return _stack.size(); 
+    }
 
-  private
+    void test();
+
+  private:
     vector<string> _stack;
 };
 
 #endif
+
+
+
